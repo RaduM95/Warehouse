@@ -10,7 +10,7 @@ fixture `Create a new account`
     .page `http://automationpractice.com/index.php`;
 test('Creating an account', async t=>{
     await t.click(Selector('.login[title="Log in to your customer account"]'));
-    await t.typeText('#email_create','testnewacc002@mailinator.com')
+    await t.typeText('#email_create','testnewacc007@mailinator.com')
     await t.click('#SubmitCreate')
     //Personal Information
     await t.typeText('input[name="customer_firstname"]','test')
